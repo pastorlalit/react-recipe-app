@@ -158,4 +158,10 @@ input:-webkit-autofill {
   font-weight: 500;
 }
 
-.marginBottom:2rem;
+.searchForm {
+  margin-bottom: 2rem;
+}
+
+.recipeGridBox {
+  margin-bottom: 2rem;
+}
