@@ -10,7 +10,7 @@ class Recipe extends React.Component {
 	};
 	componentDidMount = async () => {
 		const recipe_id = this.props.location.state.recipe;
-		alert(recipe_id);
+
 		const req = await fetch(
 			`https://cors-anywhere.herokuapp.com/http://food2fork.com/api/search?key=${API_KEY}&rId=${recipe_id}`
 		);
