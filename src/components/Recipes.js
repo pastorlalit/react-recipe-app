@@ -7,11 +7,7 @@ const Recipes = props => (
 		<div className="row">
 			{props.recipes.map(recipe => {
 				return (
-					<div
-						key={recipe.title}
-						className="col-md-4"
-						style={{ marginBottom: "2rem" }}
-					>
+					<div key={recipe.title} className="col-md-4 recipeGridBox">
 						<div className="recipes__box">
 							<img
 								className="recipe__box-img"
